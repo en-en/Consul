@@ -10,6 +10,6 @@ namespace Web.Controllers
     public class HealthController : Controller
     {
         [HttpGet]
-        public ActionResult get() => Ok("ok");
+        public ActionResult get() => Ok("ok！！");
     }
 }
